@@ -1,0 +1,66 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+#define SENSORES 5
+#define HORAS 24
+
+int main() {
+    float sensores[SENSORES][HORAS];
+    float soma_sensor, maior_temp, soma_geral = 0.0, limite;
+    int sensor_maior = 0, hora_maior = 0, acima_limite = 0;
+
+    // Inicialização da matriz com valores simulados (15.0 a 35.0 °C)
+    srand(time(NULL));
+    for (int i = 0; i < SENSORES; i++) {
+        for (int j = 0; j < HORAS; j++) {
+            sensores[i][j] = 15.0 + ((float)rand() / RAND_MAX) * 20.0;
+        }
+    }
+
+    // 1. Média de cada sensor, 2. Maior temperatura, 3. Sensor responsável, 4. Horário e 5. Soma geral
+    maior_temp = sensores[0][0];
+
+    printf("=== 1. MEDIA DE CADA SENSOR ===\n");
+    for (int i = 0; i < SENSORES; i++) {
+        soma_sensor = 0.0;
+        for (int j = 0; j < HORAS; j++) {
+            float temp_atual = sensores[i][j];
+            soma_sensor += temp_atual;
+            soma_geral += temp_atual;
+
+            // Atualiza o maior valor e seus índices
+            if (temp_atual > maior_temp) {
+                maior_temp = temp_atual;
+                sensor_maior = i;
+                hora_maior = j;
+            }
+        }
+        printf("Sensor %d: %.2f °C\n", i + 1, soma_sensor / HORAS);
+    }
+
+    // Exibição dos dados consolidados (itens 2, 3, 4 e 5)
+    printf("\n=== DETALHES GERAIS ===\n");
+    printf("2. Maior temperatura registrada: %.2f °C\n", maior_temp);
+    printf("3. Sensor responsável: Sensor %d\n", sensor_maior + 1);
+    printf("4. Horário da ocorrência: %d:00h\n", hora_maior);
+    printf("5. Média geral (120 medições): %.2f °C\n", soma_geral / (SENSORES * HORAS));
+
+    // 6. Leituras acima de um limite informado pelo usuário
+    printf("\n=== 6. VERIFICAÇÃO DE LIMITE ===\n");
+    printf("Digite a temperatura limite para verificação (°C): ");
+    scanf("%f", &limite);
+
+    for (int i = 0; i < SENSORES; i++) {
+        for (int j = 0; j < HORAS; j++) {
+            if (sensores[i][j] > limite) {
+                acima_limite++;
+            }
+        }
+    }
+
+    printf("Limite informado: %.2f °C\n", limite);
+    printf("Quantidade de leituras acima do limite: %d\n", acima_limite);
+
+    return 0;
+}
