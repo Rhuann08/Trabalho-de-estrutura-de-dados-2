@@ -10,9 +10,9 @@ O projeto está dividido nas partes desenvolvidas pelo grupo:
 - **Testes de Ordenação:** Algoritmos aplicados a arrays de 10, 20 e 1.000 elementos com contagem de comparações e trocas.
 
 ##  Tecnologias Utilizadas
-- **Linguagem:** Python 3
+- **Linguagem:** Python 
 
-## 🚀 Como Executar os Códigos
+##  Como Executar os Códigos
 
 1. Certifique-se de ter o Python instalado na sua máquina.
 2. Clone o repositório ou baixe os arquivos.
