@@ -1,19 +1,28 @@
-# Trabalho Avaliativo - Estruturas de Dados (UDF)
+# Atividade Avaliativa — Estruturas de Dados
+### Arrays, Matrizes, Algoritmos de Ordenação e Busca
 
-Repositório criado para a entrega do trabalho prático da disciplina de Estruturas de Dados, focado na investigação experimental de estruturas de dados (arrays, matrizes), algoritmos de busca e ordenação.
+## Divisão do trabalho
 
-##  Conteúdo do Projeto
+| Parte | Conteúdo | Responsável |
+|---|---|---|
+| [Parte 1](parte-1-bubble-quicksort.md) | Bubble Sort e Quick Sort | *[nome]* |
+| [Parte 2](parte-2-experimento-ordenacao.md) | Experimento de ordenação | *[nome]* |
+| [Parte 3](parte-3-busca-matrizes.md) | Busca em matrizes | *[nome]* |
+| [Parte 4](parte-4-hands-on-array.md) | Hands On — investigação do array | *[nome]* |
+| [Parte 5](parte-5-calculo-media-geral.md) | Cálculo da média geral (sensores) | *[nome]* |
+| [Parte 6](parte-6-analise-conclusao.md) | Análise e conclusão | *[nome]* |
 
-O projeto está dividido nas partes desenvolvidas pelo grupo:
-- **Busca em Matrizes:** Implementação de busca sequencial em matrizes com diferentes dimensões ($2\times2$, $10\times10$ e $100\times100$) e contagem de operações.
-- **Manipulação de Arrays (Hands On 1):** Programa em Python para gerenciar um vetor de temperaturas (cálculo de média, maior/menor valor, índices e contagem acima da média).
-- **Testes de Ordenação:** Algoritmos aplicados a arrays de 10, 20 e 1.000 elementos com contagem de comparações e trocas.
+## Como comentar
 
-##  Tecnologias Utilizadas
-- **Linguagem:** Python 
+Cada integrante deve comentar **todas as 6 partes** — a sua e as dos colegas.
 
-##  Como Executar os Códigos
+1. Abra o arquivo `.md` da parte.
+2. Clique no ícone de lápis (editar) no canto superior direito do GitHub.
+3. Vá até o final do arquivo, na seção **💬 Comentários**, e adicione seu comentário seguindo o formato:
+   ```
+   **Seu Nome — 28/08:**
+   Seu comentário aqui.
+   ```
+4. Clique em **Commit changes** (pode commitar direto na branch principal para simplificar).
 
-1. Certifique-se de ter o Python instalado na sua máquina.
-2. Clone o repositório ou baixe os arquivos.
-3. Abra o terminal na pasta do projeto e execute o arquivo desejado:
+Preencha seu nome nas tabelas acima e no campo *Responsável* de cada arquivo.
