@@ -1,6 +1,6 @@
 # Parte 1 — Pesquisa: Bubble Sort e Quick Sort
 
-*Responsável: [nome de quem fez a Parte 1]*
+*Responsável: Ryan Áquila Damasceno Vieira - RGM : 38363470              *
 
 ## Bubble Sort
 
@@ -42,11 +42,4 @@
 ---
 
 ## 💬 Comentários
-
-<!--
-Cada integrante deve comentar aqui (mesmo quem não fez esta parte).
-Formato sugerido:
-
-**[Seu Nome] — dd/mm:**
-Seu comentário aqui.
--->
+Nesse trecho eu entendi que o Bubble Sort é um algoritmo mais simples, que vai comparando os elementos que estão lado a lado e trocando eles quando estão na ordem errada. Já o Quick Sort funciona de uma forma diferente, escolhendo um pivô e separando os elementos menores e maiores para depois ordenar essas partes. Pelo que entendi, o Bubble Sort é mais fácil de entender e serve mais para aprendizado ou listas pequenas, enquanto o Quick Sort é mais rápido e indicado para trabalhar com listas maiores.
