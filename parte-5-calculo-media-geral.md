@@ -1,6 +1,6 @@
 # Parte 5 — Cálculo da Média Geral
 
-*Responsável: [nome de quem fez a Parte 5]*
+*Responsável: João Victor Lima de Freitas Carvalho - RGM: 37991850*
 
 ```c
 #define SENSORES 5
@@ -96,10 +96,4 @@ A quantidade de posições percorridas é a multiplicação entre linhas e colun
 
 ## 💬 Comentários
 
-<!--
-Cada integrante deve comentar aqui (mesmo quem não fez esta parte).
-Formato sugerido:
-
-**[Seu Nome] — dd/mm:**
-Seu comentário aqui.
--->
+Nesse código eu entendi que os dados ficam organizados em uma matriz, onde cada linha representa um sensor e cada coluna representa uma hora. Os for aninhados são usados para conseguir percorrer todas as 120 medições. O programa também consegue calcular as médias, encontrar a maior temperatura e descobrir em qual sensor e horário ela aconteceu. No final, ele percorre a matriz novamente para verificar quais temperaturas estão acima do limite informado. Por isso, entendi que a quantidade de operações depende da quantidade de sensores e horas, ficando em O(m × n).
