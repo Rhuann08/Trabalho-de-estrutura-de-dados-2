@@ -1,6 +1,6 @@
 # Parte 2 — Experimento de Ordenação
 
-*Responsável: [nome de quem fez a Parte 2]*
+*Responsável: Ryan Áquila Damasceno Vieira - RGM : 38363470*
 
 Programa para comparar experimentalmente os algoritmos **Bubble Sort** e **Quick Sort**, com arrays de 10, 20 e 1.000 elementos.
 
@@ -39,10 +39,4 @@ Para qualquer aplicação real com volume moderado ou grande de dados que precis
 
 ## 💬 Comentários
 
-<!--
-Cada integrante deve comentar aqui (mesmo quem não fez esta parte).
-Formato sugerido:
-
-**[Seu Nome] — dd/mm:**
-Seu comentário aqui.
--->
+Nesse experimento eu entendi que o Quick Sort foi bem mais eficiente que o Bubble Sort, principalmente quando aumentamos a quantidade de elementos. Com 10 e 20 elementos a diferença já apareceu, mas com 1.000 elementos ela ficou muito maior. Isso mostra na prática que o Bubble Sort vai ficando muito mais lento conforme a lista aumenta, enquanto o Quick Sort consegue trabalhar melhor dividindo os dados em partes menores. Por isso, para listas grandes, o Quick Sort é uma escolha bem melhor.
