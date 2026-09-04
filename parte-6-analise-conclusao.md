@@ -1,6 +1,6 @@
 # Parte 6 — Análise e Conclusão
 
-*Responsável: [nome de quem fez a Parte 6]*
+*Responsável: Matheus Queirós de Sousa Araújo Carvalho - RGM: 42439892*
 
 Os experimentos realizados permitiram observar, na prática, como o tamanho das estruturas de dados influencia diretamente a quantidade de operações executadas pelos algoritmos. Tanto nos testes de ordenação quanto nos percursos de arrays e matrizes, estruturas maiores exigiram uma quantidade maior de comparações, acessos e movimentações.
 
@@ -27,10 +27,4 @@ Assim, os experimentos comprovaram que não basta um algoritmo produzir o result
 
 ## 💬 Comentários
 
-<!--
-Cada integrante deve comentar aqui (mesmo quem não fez esta parte).
-Formato sugerido:
-
-**[Seu Nome] — dd/mm:**
-Seu comentário aqui.
--->
+Nessa parte eu entendi que o tamanho dos dados influencia bastante no desempenho dos algoritmos. Quanto maior a quantidade de elementos, mais operações precisam ser feitas. Também ficou claro para mim que o Bubble Sort e o Quick Sort não possuem o mesmo desempenho, principalmente quando a quantidade de elementos aumenta. O Bubble Sort acaba ficando muito mais lento, enquanto o Quick Sort consegue lidar melhor com listas grandes. Além disso, entendi que não basta apenas ver se o algoritmo conseguiu ordenar ou dar o resultado certo, também é importante analisar quantas operações ele realizou e como esse número aumenta conforme os dados ficam maiores.
